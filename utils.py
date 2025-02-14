@@ -4,3 +4,9 @@ def factorial(n):
 		res*=i
 	return res
 
+def is_pow_2(n):
+	while !(n%2) and n!=1:
+		n//=2
+	return n==1
+
+
